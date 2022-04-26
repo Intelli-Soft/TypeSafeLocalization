@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LocalizedProject">
+      <HintPath>..\TypeSafeLocalization\bin\Debug\net6.0\Release\LocalizedProject\bin\Release\net6.0\LocalizedProject.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
