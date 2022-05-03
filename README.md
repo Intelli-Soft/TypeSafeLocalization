@@ -1,8 +1,10 @@
 # TypeSafeLocalization
 Test Project for NuGetPackage IntelliSoft.LocalizeMe
 
-You can install the NuGetPackage IntelliSoft.LocalizeMe and create type safe localization.
+You can install the NuGetPackage LocalizeMe and create type safe localization.
 This is the project, where you can see, how it works.
+Very important, please run the TypeSafeLocalization project first. 
+This will create the assembly, which is needed by "TestOfCompiledProject" project.
 
 The idea behind this:
 Getting localized strings in a type safe way.
